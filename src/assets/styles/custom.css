@@ -1,0 +1,297 @@
+.container {
+    width: 100%;
+    padding: 0%;
+}
+
+.card-user {
+    padding-left: 5%;
+    background-color: rgba(89, 116, 112, 0.808) !important;
+    position: relative;
+}
+
+
+.input {
+    width: 90%;
+    height: 37px;
+    padding-left: 3%;
+    border: navajowhite;
+    border-radius: 5px !important;
+}
+
+.btn-user {
+    border-radius: 5px !important;
+}
+
+/* Bucket List Styles */
+
+.content-bucket-list {
+    padding-top: 3%;
+}
+
+.card-bucket-list {
+    padding-left: 2%;
+    background-color: rgba(86, 136, 133, 0.74) !important;
+    position: relative;
+    left: 4%;
+    padding-bottom: .7rem;
+}
+
+.input-bucket-list {
+    width: 100% !important;
+    height: 37px;
+    padding-left: 3%;
+    border: navajowhite;
+    border-radius: 5px !important;
+    margin-bottom: 2rem;
+}
+
+.btn-bucket-list {
+    border-radius: 5px !important;
+}
+
+/* Bucket List Items Styles */
+
+.content-bucket-list-item {
+    padding-top: 3%;
+}
+
+
+.card-bucket-list-item {
+    padding-left: 5%;
+    background-color: rgba(25, 36, 34, 0.808) !important;
+    position: relative;
+    left: 4%;
+}
+
+.card-plain {
+    border: none !important;
+    margin-top: 50px; 
+}
+
+#login-link{
+    color: #fff;
+}
+
+#login-link:hover{
+    color: rgb(230, 219, 219);
+}
+
+.err_image {
+    background-image: url("../images/fallback-image.jpg")
+}
+
+.navbar-default {
+    margin-bottom: 20px !important;
+}
+
+
+/* ********************** */
+/* *NEW CSS DECLARATIONS** */
+/* *********************** */
+
+
+
+/* GENERAL STYLE RULES */
+.show-case {
+    display: none
+}
+
+#root {
+    height: auto;
+    width: auto;
+}
+
+.sidebar {
+    z-index: 1000 !important;
+}
+.sidebar-wrapper {
+    height: 100% !important;
+}
+
+.navbar-default {
+    margin-bottom: 20px !important;
+}
+
+@media (max-width: 992px) {
+    .navbar-header {
+        float: right;
+    }
+
+    .navbar-toggle {
+        display: block;
+        margin-top:20px;
+    }
+}
+
+@media (max-width: 430px) {
+
+    .card-bucket-list-item .title{
+        font-size: 18px !important;
+    }
+    .card-bucket-list-item {
+        left: 0px !important;
+        overflow-x: hidden;
+    }
+
+    .input-bucket-list, .card-bucket-list-item .btn {
+        width: 200px;
+    }
+
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    button.navbar-toggle {
+        left: -10px;
+    }
+
+    .navbar-header {
+        margin-right: 0px !important;
+    }
+}
+
+/* STYLE RULES FOR LOGIN VIEW */
+.login-view-wrapper {
+    position: relative;
+    top: 22vh;
+}
+
+.login-view-card {
+    background-color: rgba(89, 116, 112, 0.808) !important;
+    position: relative;
+}
+
+.login-form-header, .login-form-content {
+    padding-left: 70px !important; 
+}
+
+.login-sweet-loading {
+    position: relative;
+    top: -200px;
+}
+
+@media screen and (max-width: 582px) {
+    .login-form-header, .login-form-content {
+        padding-left: 10% !important; 
+        padding-right: 0% !important; 
+    }
+}
+
+/* STYLE RULES FOR REGISTER VIEW */
+.register-view-wrapper {
+    position: relative;
+    top: 15vh;
+}
+
+.register-view-card {
+    background-color: rgba(89, 116, 112, 0.808) !important;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.register-form-header, .register-form-content {
+    padding-left: 70px !important; 
+}
+
+.register-sweet-loading {
+    position: relative;
+    top: -100px;
+}
+
+@media screen and (max-width: 582px) {
+    .register-form-header, .register-form-content {
+        padding-left: 10% !important; 
+        padding-right: 0% !important; 
+    }
+}
+
+/* STYLE RULES FOR ALL BUCKET LIST AND PAGINATED BUCKET LIST VIEW */
+.sweet-loading-container {
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    top: 0;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+  .hide-fragment {
+    display: none;
+  }
+
+  .css-yg5dj1-override {
+    position: absolute !important;
+    font-size: 0 !important;
+    margin: 0px auto !important;
+    width: 20% !important;
+    height: 20% !important;
+    display: block !important;
+    top: 50% !important;
+    left: 50% !important;
+  }
+
+ .css-k90lxj, .css-13q2z6j, .css-1ei9o2x, .css-8wrq5s,
+ .css-kac3xm, .css-rcm3sc, .css-mf9i10, .css-y7h6pg {
+    width: 2px !important;
+    height: 10px !important;
+ }
+
+ .css-8xmt2-override {
+    position: absolute !important;
+    font-size: 0 !important;
+    margin: 0px auto !important;
+    width: 20% !important;
+    height: 20% !important;
+    display: block !important;
+    top: 50% !important;
+    left: 50% !important;
+ }
+
+    @media screen and (max-width: 420px) {
+        .col-xs-6 {
+            width: 100%;
+        }
+    }
+
+
+    /* STYLE RULES FOR PAGINATE BUCKET LIST VIEW */
+    
+    .paging {
+        margin-left: 0px;
+    }
+
+    .pag-card {
+        margin-bottom: 0px !important;
+    }
+
+    
+    /* STYLE RULES FOR ADD TO BUCKET LIST VIEW */
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10%;
+        padding-right: 10%;
+        justify-content: center;
+    }
+
+    .button-container button {
+        margin-bottom: 10px;
+    }
+
+    @media screen and (max-width: 284px) {
+        .title {
+            font-size: 18px !important;
+        }
+        
+        .button-container button {
+            font-size: 13px;
+        }
+    }
+
