@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: #000;
+  height: auto;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+}
+
+.side-bar{
+  width: 25%;
+  color: #fff;
+  background-color: teal;
+  height: 100vh;
+  position: fixed;
+  padding: 3rem 0;
+}
+
+.heading {
+  height: 5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.navigation li {
+  position: relative;
+  padding: 1rem;
+  margin-bottom: .1rem;
+  color: tan;
+}
+
+.navigation li:hover {
+  background-color: #fff;
+  color: teal;
+}
+
+.navigation a{
+  position: absolute;
+  left: 25%;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.side-panel {
+  
+}
