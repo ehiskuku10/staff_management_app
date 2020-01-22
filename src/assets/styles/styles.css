@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 body {
@@ -12,18 +13,36 @@ body {
   height: auto;
 }
 
+input {
+  display: block;
+  outline: none;
+  width: 100%;
+  border: 1px solid gold;
+  padding: .5rem;
+  margin-bottom: 1rem;
+}
+
+input[type="submit"], #submit {
+  cursor: pointer;
+  border: none;
+}
+
+h3 {
+  margin: 1rem;
+}
+
 .container {
   height: 100%;
-  display: flex;
 }
 
 .side-bar{
-  width: 25%;
+  width: 230px;
   color: #fff;
   background-color: teal;
   height: 100vh;
   position: fixed;
   padding: 3rem 0;
+  z-index: 1000;
 }
 
 .heading {
@@ -33,15 +52,15 @@ body {
   align-items: center;
   justify-content: center;
   font-weight: 600;
-  font-size: 1.2rem;
-  margin-bottom: 3rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
 }
 
 .navigation li {
   position: relative;
-  padding: 1rem;
   margin-bottom: .1rem;
   color: tan;
+  text-align: center;
 }
 
 .navigation li:hover {
@@ -50,13 +69,67 @@ body {
 }
 
 .navigation a{
-  position: absolute;
-  left: 25%;
   display: block;
   text-decoration: none;
+  font-size: .9rem;
   color: inherit;
+  padding: 1rem;
 }
 
 .side-panel {
-  
+  left: 230px;
+  position: absolute;
+  padding: 2rem;
+  width: calc(100% - 230px);
+  height: 100%;
+}
+
+
+.staff-list  {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-item__box {
+  height: 13rem;
+  width: 13rem;
+  margin: 1rem;
+  background-color: rgb(199, 187, 172);
+  border-radius: 5px;
+  position: relative;
+  justify-content: center;
+  display: flex;
+}
+
+span {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  transform: translateY(-50%);
+}
+
+.btn-block {
+  margin: 1rem;
+  width: 13rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-block > button {
+  width: 45%;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 10px;
+  border: none;
+}
+
+.success_msg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgb(45, 172, 45);
+  color: #fff;
+  font-size: 12px;
+  padding: 10px;
 }
